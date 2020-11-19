@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#a20a0a" />
+    <title>La Liga Data</title>
+    <link rel="icon" href="img/laliga.png" sizes="256x256" type="image/png">
+    <link rel="apple-touch-icon" href="./img/apple-icon-180x180.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/android-72x72.png" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="./css/materialize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/icons.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- desktop nav -->
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper container">
+                    <a href="#home" class="brand-logo">La Liga Data</a>
+                    <a href="#" data-target="mobile-nav" class="sidenav-trigger">☰</a>
+                    <ul class="topnav right hide-on-med-and-down">
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- mobile nav -->
+        <ul id="mobile-nav" class="sidenav">
+            <ul class="mobilenav">
+            </ul>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <!-- main -->
+        <div class="container">
+            <div class="row justify-center f-column align-item-center center-align">
+                <div class="col s12 m12 l12" id="main-display">
+                    <div class="preloader-background">
+                        <div class="preloader-wrapper small active">
+                            <div class="spinner-layer spinner-red-only">
+                                <div class="circle-clipper left">
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="gap-patch">
+                                    <div class="circle"></div>
+                                </div>
+                                <div class="circle-clipper right">
+                                    <div class="circle"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="footer-copyright">
+                <div class="row justify-center">
+                    <div class="col">
+                        &copy;2020 Rhenald Karrel</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="./js/init.js"></script>
+    <script src="./js/api.js" defer></script>
+    <script src="./js/idb.js" defer></script>
+    <script src="./js/db.js" defer></script>
+    <script src="./js/functions.js" defer></script>
+    <script src="./js/materialize.js" defer></script>
+    <script src="./js/script.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "Liga Spanyol",
+  "short_name": "La Liga",
+  "description": "Aplikasi Informasi Sepakbola Pada Liga Spanyol",
+  "theme_color": "#121212",
+  "background_color": "#121212",
+  "display": "standalone",
+  "orientation": "portrait",
+  "Scope": "/",
+  "start_url": "/index.html",
+  "gcm_sender_id" : "840436468817",
+  "icons": [
+    {
+      "src": "./img/icon192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/icon512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "splash_pages": null
+}
